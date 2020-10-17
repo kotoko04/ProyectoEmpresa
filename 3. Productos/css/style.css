@@ -1,0 +1,48 @@
+*
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+Body { overflow-x: hidden; } /*No permite que nada se salga del 100% */
+
+.cont_enc
+{
+    background-image: url(../imagenes/fondo_enc.jpg);
+    background-attachment: fixed;
+}
+
+/*Encabezado*/
+
+.logo
+{
+    width: 70px;
+    margin: 10px;
+}
+
+.cont_ventanas
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.ventanas
+{
+    margin-left: auto;
+    display:flex;
+}
+
+.view
+{
+    padding-right: 15px;
+    font-size: 15pt;
+    
+}
+
+/*Final de Encabezado*/
